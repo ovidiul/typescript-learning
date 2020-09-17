@@ -21,8 +21,6 @@ const person= [{
 
 console.log(person[0].age)
 
-console.log(Role[person[0].role])
-
 for (const hobby of person[0].hobbies) {
     console.log(hobby.toUpperCase())
 }
